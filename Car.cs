@@ -15,7 +15,7 @@ namespace ProjektSalonSamochodowy
         public Car() { }
         private string SetVechicleProperties()
         {
-            Console.Write("Podaj markę aaa: ");
+            Console.Write("Podaj markę: ");
             Brand = Console.ReadLine();
 
             Console.Write("Podaj model: ");
